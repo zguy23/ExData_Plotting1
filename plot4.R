@@ -15,7 +15,7 @@ par(mfrow = c(2,2))
 
 ## PLOT 1
 ## Convert factor to integer for $Global_active_power and create plot with desired parameters
-plot(data1$DateTime, as.numeric(as.character(data1$Global_active_power)), type="l", xlab="",ylab="Global Active Power (kilowatts)")
+plot(data1$DateTime, as.numeric(as.character(data1$Global_active_power)), type="l", xlab="",ylab="Global Active Power")
 
 ## PLOT 2
 ## Convert factor to integer for $Voltage and create plot with desired parameters
